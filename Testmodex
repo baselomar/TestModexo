@@ -22,7 +22,7 @@ menu() {
 
     if [[ $option == 1 || $option == 01 ]]; then
         sleep 3
-        printf"\e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m         Scanning  \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
+        printf"\e[0m\e[1;31m[\e[0m\e[1;37m01\e[0m\e[1;31m]\e[0m\e[1;33m Scanning Please Wait...  \e[0m\n"
         myipaddr
     elif [[ $option == 0 || $option == 00 ]]; then
         sleep 1
