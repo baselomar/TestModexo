@@ -22,6 +22,7 @@ menu() {
 
     if [[ $option == 1 || $option == 01 ]]; then
         sleep 3
+        printf"\e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m         Scanning  \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
         myipaddr
     elif [[ $option == 0 || $option == 00 ]]; then
         sleep 1
@@ -62,11 +63,6 @@ printf "  \e[0m\e[1;93m  Ip Address    \e[0m\e[1;96m:\e[0m\e[1;92m   $myip\e[0m\
 printf "  \e[0m\e[1;93m  City          \e[0m\e[1;96m:\e[0m\e[1;92m   $mycity\e[0m\n"
 printf "  \e[0m\e[1;93m  Region        \e[0m\e[1;96m:\e[0m\e[1;92m   $myregion\e[0m\n"
 printf "  \e[0m\e[1;93m  Country       \e[0m\e[1;96m:\e[0m\e[1;92m   $mycountry\e[0m\n"
-printf "\e[0m\n"
-printf "  \e[0m\e[1;93m  Latitude      \e[0m\e[1;96m:\e[0m\e[1;92m    $mylat\e[0m\n"
-printf "  \e[0m\e[1;93m  Longitude     \e[0m\e[1;96m:\e[0m\e[1;92m    $mylon\e[0m\n"
-printf "  \e[0m\e[1;93m  Time Zone     \e[0m\e[1;96m:\e[0m\e[1;92m    $mytime\e[0m\n"
-printf "  \e[0m\e[1;93m  Postal Code   \e[0m\e[1;96m:\e[0m\e[1;92m    $mypostal\e[0m\n"
 printf "\e[0m\n"
 printf "  \e[0m\e[1;93m  ISP           \e[0m\e[1;96m:\e[0m\e[1;92m   $myisp\e[0m\n"
 printf "  \e[0m\e[1;93m  ASN           \e[0m\e[1;96m:\e[0m\e[1;92m   $myasn\e[0m\n"
