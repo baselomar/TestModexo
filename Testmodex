@@ -21,7 +21,7 @@ menu() {
     read -p $'  \e[1;31m[\e[0m\e[1;37m~\e[0m\e[1;31m]\e[0m\e[1;92m Select An Option \e[0m\e[1;96m: \e[0m\e[1;93m\en' option
 
     if [[ $option == 1 || $option == 01 ]]; then
-        printf "\e[0m\e[1;31m[\e[0m\e[1;37m01\e[0m\e[1;31m]\e[0m\e[1;33m Scanning Please Wait...  \e[0m\n"
+    printf "\e[0m\e[1;31m. [\e[0m\e[1;37m!!\e[0m\e[1;31m]\e[0m\e[1;33m Scanning Please Wait...  \e[0m\n"
 
         sleep 3
         myipaddr
